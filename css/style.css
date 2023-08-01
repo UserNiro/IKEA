@@ -188,6 +188,10 @@ header li:last-child {
     font-weight: 500;
     text-align: right;
     color: #fff;
+    
+}
+.banner .bannertext > h1{
+    word-wrap: keep-all;
 }
 /* sec-1 */
 .title { 
@@ -948,7 +952,7 @@ header li:last-child {
 }
 
 /* @375px */
-@media(max-width:415px){
+@media(max-width:645px){
 
     .sec-1 .bedroom .img-box,
     .sec-1 .kitchen .img-box,
@@ -992,18 +996,18 @@ header li:last-child {
         }
     
         .banner .bannertext{
-            
             display: block;
             text-align: center;
             margin: 0 auto;
             top: 10vh;
-            right: 20px;
-            /* padding: 0 4px; */
-            /* left: 50%;
-            transform: translateX(-50%); */
+            left: 50%;
+            right: auto;
+            transform: translateX(-50%);
+
         }
         .banner .bannertext > h1{
-            font-size: 0.6em;
+            font-size: 28px;
+            word-break: keep-all;
         }
         
         .title {
