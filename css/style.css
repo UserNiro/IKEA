@@ -948,7 +948,7 @@ header li:last-child {
 }
 
 /* @375px */
-@media(max-width:375px){
+@media(max-width:415px){
 
     .sec-1 .bedroom .img-box,
     .sec-1 .kitchen .img-box,
